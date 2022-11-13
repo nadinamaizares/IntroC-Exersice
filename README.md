@@ -34,7 +34,7 @@ La principal diferencia, en la mayoría de los lenguajes, es que un for itera so
 por su parte, un for-each itera sobre cosas que, obligatoriamente, han de existir. 
 Además, no nos garantiza el orden en el que se accede.
 
-#Respuesta Conversiones 7
+# Respuesta Conversiones 7
 
 using System;
 using System.Collections.Generic;
