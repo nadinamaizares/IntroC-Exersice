@@ -33,3 +33,29 @@ Por otro lado si se le indica como argumento un int 1 o 0, se recibe un error de
 La principal diferencia, en la mayoría de los lenguajes, es que un for itera sobre cosas que no tienen porqué existir, y nos garantiza el orden de acceso; 
 por su parte, un for-each itera sobre cosas que, obligatoriamente, han de existir. 
 Además, no nos garantiza el orden en el que se accede.
+
+#Respuesta Conversiones 7
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace EstructuraRepetitivaWhile1
+{
+ class Program
+ {
+ static void Main(string[] args)
+ {
+ int x;
+ x = 0;
+ while (x <= 50)
+ {
+ Console.Write(x);
+ Console.Write(" - ");
+ x = x + 5;
+ }
+ Console.ReadKey();
+ }
+ }
+}
